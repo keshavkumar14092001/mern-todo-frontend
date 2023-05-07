@@ -10,7 +10,7 @@ const TodoCard = ({ todo, id }) => {
   };
 
   return (
-    <li className="bg-white flex flex-col md:flex-row justify-between items-center my-8 md:my-20 p-4 md:p-16 rounded-md shadow-lg">
+    <li className="bg-white flex flex-col md:flex-row justify-between items-center my-8 md:my-26 p-4 md:p-16 rounded-md shadow-lg">
       <div>
         <h1 className="text-base md:text-lg lg:text-2xl md:tracking-wide font-semibold text-indigo-700">
           {todo}
